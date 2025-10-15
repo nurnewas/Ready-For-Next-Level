@@ -12,14 +12,9 @@ const { name: students2, great = "Golden A+", address = "Dhaka"} = {name: "Doe"}
 // console.log(students);
 // console.log(students2, great, address);
 
-function printInfo({name, age =28, address}){
-console.log(name, age , address = "Pakistan");
-}
-printInfo(students);// calling function 
-
 function gettingInfo({name, age, address = "Dhaka"}){
   console.log(name, age, address);
 }
 
-gettingInfo(students);// calling function 
-gettingInfo({name: "Smith", age: 30});// calling function with object
+gettingInfo(students);// calling function with object
+gettingInfo({name: "Smith", age: 30});s
